@@ -1,4 +1,6 @@
-## PowerShell setup
+![Windows Terminal screenshot](images/windows-terminal-screenshot.png)
+
+## PowerShell setup (Windows)
 
 - Windows Terminal.
 - PowerShell.
