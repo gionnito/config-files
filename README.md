@@ -1,6 +1,6 @@
 ![Windows Terminal screenshot](images/windows-terminal-screenshot.png)
 
-## PowerShell setup
+# Main Setup
 
 - Windows Terminal.
 - PowerShell.
