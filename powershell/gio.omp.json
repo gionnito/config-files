@@ -17,7 +17,7 @@
         {
           "type": "root",
           "style": "diamond",
-          "foreground": "#FFFB38",
+          "foreground": "#fffb38",
           "background": "#ef5350",
           "template": "<parentBackground>\ue0b0</> \uf0e7 ",
           "properties": {
@@ -28,7 +28,7 @@
           "type": "path",
           "style": "powerline",
           "powerline_symbol": "\ue0b0",
-          "foreground": "#E4E4E4",
+          "foreground": "#e4e4e4",
           "background": "#444444",
           "template": " {{ .Path }} ",
           "properties": {
@@ -50,7 +50,8 @@
           "template": " {{ .HEAD }} {{ if .Working.Changed }}{{ .Working.String }} {{ end }}{{ if and (.Working.Changed) (.Staging.Changed) }}|{{ end }}{{ if .Staging.Changed }}<#011627> \uf046 {{ .Staging.String }} </>{{ end }}",
           "properties": {
             "branch_icon": "\ue725 ",
-            "commit_icon": "\uF417 ",
+            "commit_icon": "\uf417 ",
+            "git_icon": "\uf408 ",
             "fetch_status": true,
             "fetch_upstream_icon": true
           }
@@ -59,8 +60,8 @@
           "type": "python",
           "style": "powerline",
           "powerline_symbol": "\ue0b0",
-          "foreground": "#E7E7E7",
-          "background": "#3776AB",
+          "foreground": "#e7e7e7",
+          "background": "#3776ab",
           "template": " \ue235 {{ if .Venv }}({{ .Venv }}){{ end }} ",
           "properties": {
             "display_mode": "environment",
