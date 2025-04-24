@@ -1,8 +1,5 @@
 # ------------ MODULES
 
-# Terminal Icons
-Import-Module -Name Terminal-Icons
-
 # Oh My Posh
 oh-my-posh init pwsh --config "C:\Users\gionn\GIO\config-files\powershell\gio.omp.json" | Invoke-Expression
 
