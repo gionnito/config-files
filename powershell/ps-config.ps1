@@ -1,6 +1,6 @@
 # ------------ GENERAL
 
-# Remove italic from headers
+# Remove italic styling from table headers
 $PSStyle.Formatting.CustomTableHeaderLabel = $PSStyle.Formatting.TableHeader
 
 # ------------ MODULES
