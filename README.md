@@ -5,5 +5,6 @@
 - Windows Terminal.
 - PowerShell.
 - Nerd Fonts (FiraCode).
+- Terminal Icons.
 - Oh My Posh.
 - z (for Windows).
