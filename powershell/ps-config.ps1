@@ -27,9 +27,9 @@ New-Alias -Name gg -Value GitTree
 function NewItem { New-Item @args | Out-Null }
 function ChildItem { 
   if ($PWD.Path -eq $env:USERPROFILE) {
-    Get-ChildItem
+    Get-ChildItem @args
   } else {
-    Get-ChildItem -Force
+    Get-ChildItem @args -Force
   }
 }
 
