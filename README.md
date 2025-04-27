@@ -2,23 +2,23 @@
 
 # Main Setup
 
-### 1️⃣ Windows Terminal
+### 🪟 Windows Terminal
 
 - Add `-NoLogo` to the path in the PowerShell *Command Line* option.
 
-### 2️⃣ PowerShell
+### ⚡ PowerShell
 
-### 3️⃣ Nerd Fonts
+### 😎 Nerd Fonts
 
 - FiraCode.
 
-### 4️⃣ Terminal Icons
+### ✨ Terminal Icons
 
 - Remove the `<GroupBy>` tag from the `Terminal-Icons.format.ps1xml` file located in the Documents directory.
 - Replace the `devblackops.psd1` file in the `colorThemes` directory.
 
-### 5️⃣ Oh My Posh
+### 🎨 Oh My Posh
 
-### 6️⃣ z
+### 📂 z
 
 - PowerShell version.
