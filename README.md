@@ -4,7 +4,7 @@
 
 ### 🪟 Windows Terminal
 
-- Add `-NoLogo` to the path in the PowerShell *Command Line* option.
+- Add `-NoLogo` flag to the PowerShell *Command Line* option.
 
 ### ⚡ PowerShell
 
@@ -14,8 +14,8 @@
 
 ### ✨ Terminal Icons
 
-- Remove the `<GroupBy>` tag from the `Terminal-Icons.format.ps1xml` file located in the Documents directory.
-- Replace the `devblackops.psd1` file in the `colorThemes` directory.
+- Remove the `<GroupBy>` tag from the `Terminal-Icons.format.ps1xml` file located in the Documents folder.
+- Replace `devblackops.psd1` file in the `colorThemes` folder to get a softer color palette.
 
 ### 🎨 Oh My Posh
 
