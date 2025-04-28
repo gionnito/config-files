@@ -15,6 +15,7 @@ oh-my-posh init pwsh --config "C:\Users\gionn\GIO\config-files\powershell\gio.om
 
 # General
 New-Alias -Name t -Value NewItem
+New-Alias -Name mkd -Value NewDir
 Set-Alias -Name ls -Value ChildItem
 
 # Git / GitHub
@@ -25,6 +26,7 @@ New-Alias -Name gg -Value GitTree
 
 # General
 function NewItem { New-Item @args | Out-Null }
+function NewDir { New-Item -ItemType Directory -Path @args | Out-Null }
 function ChildItem { 
   if ($PWD.Path -eq $env:USERPROFILE) {
     Get-ChildItem @args
